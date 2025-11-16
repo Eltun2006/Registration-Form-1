@@ -1,0 +1,81 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: rgb(46, 55, 235);
+}
+
+.form{
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.form-inside{
+    margin-left: 25px;
+    padding-top: 20px;
+
+}
+
+.form-inside h2{
+    border-bottom: 3px solid rgb(46, 55, 235);
+    width: 31px;
+    border-radius:1px ;
+}
+
+.form-inside input, button{
+    padding: 15px;
+    width: 320px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    gap: 8px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.checkbox-row input {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+}
+
+
+button{
+    width: 350px;
+    background-color: rgb(46, 55, 235);
+    color: white;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-inside strong{
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.form-inside a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(46, 55, 235);
+}
