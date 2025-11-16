@@ -1,0 +1,98 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #f0af89;
+}
+
+img{
+    width: 60px;
+    height: 50px;
+}
+
+.form{
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+span{
+    color: red;
+}
+
+.form-enterance{
+    text-align: center;
+}
+
+.form-enterance h2{
+    font-size: 35px;
+    margin: 0;
+}
+
+.form-inside input, select{
+    width: 670px ;
+    padding: 10px;
+    border: 1px solid #eff4fb !important;
+    border-radius: 20px;
+    background-color: #eff4fb !important;
+    margin-top: -10px !important;
+}
+
+.form-inside button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: orangered;
+    border: 0 solid orangered;
+    color: white;
+}
+
+.form-inside button:hover{
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.form-enterance p{
+    margin: 0 !important;
+}
+
+.field{
+    margin-bottom: 0px !important;
+}
+.two-inputs {
+    display: flex;
+    gap: 30px; /* inputlar arası məsafə */
+    margin-top: 0px !important;
+}
+
+.two-inputs input{
+    width: 310px !important;
+    padding: 10px;
+}
+
+.form-inside select{
+    width: 690px;
+    padding-right: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 300px !important;
+    padding: 10px;
+}
+
+.input-group label {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 20px;
+}
