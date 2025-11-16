@@ -1,0 +1,63 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color:azure;
+}
+
+.form{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.form-inside{
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+
+.form-inside h2{
+    margin: 0;
+    font-size: 35px;
+}
+
+
+.form-inside p{
+    margin: 0;
+    font-size: 15px;
+}
+
+.form-inside input, button{
+    padding: 15px;
+    width: 270px;
+    margin-top: 50px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+button{
+    width: 305px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.form-inside div{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.form-inside div input{
+    width: 115px;
+}
